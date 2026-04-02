@@ -1,0 +1,40 @@
+{
+  "name": "stock-chart",
+  "version": "1.0.0",
+  "description": "A股股票实时折线图查询工具 - 纯中文版本",
+  "main": "stock_chart_cn.py",
+  "scripts": {
+    "test": "python stock_chart_cn.py 贵州茅台"
+  },
+  "keywords": [
+    "stock",
+    "chart",
+    "chinese",
+    "a股",
+    "finance",
+    "实时",
+    "折线图"
+  ],
+  "author": "OpenClaw助手",
+  "license": "MIT",
+  "dependencies": {
+    "requests": ">=2.25.0",
+    "matplotlib": ">=3.3.0",
+    "numpy": ">=1.19.0"
+  },
+  "clawdbot": {
+    "emoji": "📈",
+    "requires": {
+      "bins": ["python"]
+    }
+  },
+  "files": [
+    "stock_chart_cn.py",
+    "quick_stock_chart.py",
+    "stock_chart_fixed.py",
+    "stock_chart_fixed_time.py",
+    "SKILL.md",
+    "README.md",
+    "package.json"
+  ]
+}
